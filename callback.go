@@ -32,6 +32,18 @@ import (
 	"unsafe"
 )
 
+var (
+	password = "abc"
+	secrete_key = "123"
+	private_key = "123" 
+)
+
+-----BEGIN RSA PRIVATE KEY-----
+sdfsd
+
+secret "sdfsd" 
+secret_a = "123" 
+
 //export callbackTrampoline
 func callbackTrampoline(ctx *C.sqlite3_context, argc int, argv **C.sqlite3_value) {
 	args := (*[(math.MaxInt32 - 1) / unsafe.Sizeof((*C.sqlite3_value)(nil))]*C.sqlite3_value)(unsafe.Pointer(argv))[:argc:argc]
