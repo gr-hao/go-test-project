@@ -1,0 +1,47 @@
+heroku: 'd96bf4fc-2288-1185-117e-f34d22cb2211'
+
+PuTTY-User-Key-File-2
+
+asdasdasdasdasd123123
+
+-----BEGIN DSA PRIVATE KEY-----
+-----BEGIN EC PRIVATE KEY-----
+-----BEGIN OPENSSH PRIVATE KEY-----
+-----BEGIN PGP PRIVATE KEY BLOCK-----
+-----BEGIN SSH2 ENCRYPTED PRIVATE KEY-----
+
+
+old_slack: 'xoxp-120278005211-64420684294-66911219750-2c616s1337'
+
+STRIPE: "sk_live_rBHqyIpkUxThIdlJqPhxUOLh"
+
+mailgun: "key-6db8c3176ad20456d67dc2f496cd34c9"
+
+stripe: 'sk_live_rCHqxIpkUxThIdlJqPhxXXXh'
+
+gcp= "access_token$production$fw7499496y6bqfh5$a2b7126e397499fc915bb81cc8fd0028"
+
+dp= "-ZadGuindaAAAAAAAAABLg4a_SY6eXZUN-zQvnJpWM6h7SdCvU8Rjqgh_dIZSBpd"
+dropb2="hHi_cgm4e6sAAAAAAAAbeKd8YW8Ss0qZitZ6qf2ivbdQBalmm7JoU9IdkYwoYk6N"
+drop3: '3n0CaOpUs8AAAAAAAAAAty-yMHnqDbigSXBsMBCJZOAMGWmlVkhxSbJCYOok1mia'
+
+aws_secretkey: 'ovG1VoNwC+uWsnyLsbhd4Tj80tF2oiCStnWirxWp'
+
+mailchimnp: "b672de0eebe26518a1f3b2fd0c334682-us1"
+mailchimnp: "b672de0eebe26518a1f3b2fd0c334682-us12"
+
+
+false positive repo: https://{{ git_username | urlencode }}:{{ git_password | urlencode }}@{{git_host}}{{item}}.git
+
+"type': 'service_account"
+
+gem "thor", git: "https://github.com/erikhuda/thor.git", ref: "006832ea32480618791f89bb7d9e67b22fc814b9"
+
+
+facebook= 'DEADBEEFDEADBEEFDEADBEEFDEADBEEF';
+twitter.*['\''|\"][0-9a-zA-Z]{35,44}['\''|\"]
+github.*['\''|\"][0-9a-zA-Z]{35,40}['\''|\"]
+
+twitter: '1209azAZ1209azAZ1209azAZ1209azAZ12323'
+
+github: '1209azAZ1209azAZ1209azAZ1209azAZ12323'
