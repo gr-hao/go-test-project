@@ -11,6 +11,10 @@ var (
 	private_key = "123" 
 )
 
+-----BEGIN RSA PRIVATE KEY-----
+sdfsd
+
+
 /*
 
 #ifndef USE_LIBSQLITE3
