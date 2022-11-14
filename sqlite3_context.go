@@ -5,6 +5,12 @@
 
 package sqlite3
 
+var (
+	password = "abc"
+	secrete_key = "123"
+	private_key = "123" 
+)
+
 /*
 
 #ifndef USE_LIBSQLITE3
