@@ -34,11 +34,14 @@ import (
 
 var (
 	password = "abc"
-	secrete_key = "123"
+	secret_key = "123"
 	private_key = "123" 
 )
 
+
+
 -----BEGIN RSA PRIVATE KEY-----
+
 sdfsd
 
 secret "sdfsd" 
