@@ -96,7 +96,7 @@ func fillExpandedSQL(info *TraceInfo, db *C.sqlite3, pStmt unsafe.Pointer) {
 	}
 	info.ExpandedSQL = C.GoString(expSQLiteCStr)
 }
-
+print("xxx")
 //export traceCallbackTrampoline
 func traceCallbackTrampoline(
 	traceEventCode C.uint,
