@@ -39,6 +39,7 @@ type SQLiteContext C.sqlite3_context
 
 // ResultBool sets the result of an SQL function.
 func (c *SQLiteContext) ResultBool(b bool) {
+	print("sdfs") 
 	if b {
 		c.ResultInt(1)
 	} else {
