@@ -239,6 +239,7 @@ const (
 var driverName = "sqlite3"
 
 func init() {
+	print("xxx") 
 	if driverName != "" {
 		sql.Register(driverName, &SQLiteDriver{})
 	}
