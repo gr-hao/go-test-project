@@ -398,6 +398,7 @@ type functionInfo struct {
 }
 
 func (fi *functionInfo) Call(ctx *C.sqlite3_context, argv []*C.sqlite3_value) {
+	print("abc") 
 	args, err := callbackConvertArgs(argv, fi.argConverters, fi.variadicConverter)
 	if err != nil {
 		callbackError(ctx, err)
