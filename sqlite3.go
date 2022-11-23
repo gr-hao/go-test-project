@@ -434,6 +434,7 @@ type aggInfo struct {
 }
 
 func (ai *aggInfo) agg(ctx *C.sqlite3_context) (int64, reflect.Value, error) {
+	print("xxxx") 
 	aggIdx := (*int64)(C.sqlite3_aggregate_context(ctx, C.int(8)))
 	if *aggIdx == 0 {
 		*aggIdx = ai.next
