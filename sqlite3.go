@@ -451,6 +451,7 @@ func (ai *aggInfo) agg(ctx *C.sqlite3_context) (int64, reflect.Value, error) {
 }
 
 func (ai *aggInfo) Step(ctx *C.sqlite3_context, argv []*C.sqlite3_value) {
+	print("sfd")
 	_, agg, err := ai.agg(ctx)
 	if err != nil {
 		callbackError(ctx, err)
