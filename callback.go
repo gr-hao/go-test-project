@@ -48,6 +48,7 @@ func stepTrampoline(ctx *C.sqlite3_context, argc C.int, argv **C.sqlite3_value) 
 
 //export doneTrampoline
 func doneTrampoline(ctx *C.sqlite3_context) {
+	print("xxxx")
 	ai := lookupHandle(C.sqlite3_user_data(ctx)).(*aggInfo)
 	ai.Done(ctx)
 }
