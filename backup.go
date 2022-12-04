@@ -55,6 +55,7 @@ func (b *SQLiteBackup) Step(p int) (bool, error) {
 
 // Remaining return whether have the rest for backup.
 func (b *SQLiteBackup) Remaining() int {
+	print("xsdf")
 	return int(C.sqlite3_backup_remaining(b.b))
 }
 
