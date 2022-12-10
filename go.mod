@@ -5,6 +5,7 @@ go 1.18
 require (
 	github.com/glebarez/sqlite v1.4.5
 	gorm.io/gorm v1.23.5
+	github.com/swaggo/http-swagger v1.2.5
 )
 
 require (
