@@ -8,6 +8,7 @@ require (
 )
 
 require (
+	modernc.org/sqlite v1.15.2 // indirect
 	github.com/glebarez/go-sqlite v1.17.2 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
